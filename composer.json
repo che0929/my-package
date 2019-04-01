@@ -1,0 +1,15 @@
+{
+  "name": "will/my-package",
+  "description": "测试",
+  "type": "library",
+  "require": {
+    "guzzlehttp/guzzle": "^6.3",
+    "symfony/serializer": "^4.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "FirstPackage\\": "./src"
+    }
+  }
+}
+
